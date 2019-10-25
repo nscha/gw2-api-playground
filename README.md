@@ -1,2 +1,3 @@
-# gw2-api-playground
-Static site for GitHub Pages (initially based on a codepen)
+# GW2 API Playground
+ 
+Static site for GitHub Pages (initially a Pen created at CodePen.io)
