@@ -1,0 +1,86 @@
+html {
+   background-image: url(http://wiki.guildwars2.com/images/0/00/Skin_header.png);
+   background-repeat: no-repeat;
+}
+
+h1 {
+   color: white;
+   margin: 10px;
+   text-shadow: black 3px 3px;
+}
+
+body div {
+   margin: 10px;
+}
+
+#htmlTemplates {
+   display: none;
+}
+
+.accountDisplay,
+.characterDisplay,
+.guildDisplay,
+.bankDisplay,
+.walletDisplay {
+   visibility: hidden;
+}
+
+.accountDisplay {
+   display: inline-block;
+}
+
+.walletItem {
+   display: inline-block;
+}
+
+.bag img.bag {
+    background-color: #EEE;
+}
+
+.characterDisplay #equipment,
+.characterDisplay #inventory {
+   display: inline-block;
+   vertical-align: top;
+   width: 45%;
+}
+
+.items .item {
+   position: relative;
+   display: inline-block;
+   margin: 1px;
+}
+
+.item img {
+    background-color: #EEE;
+}
+
+.items .item .count {
+   position: absolute;
+   color: white;
+   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.characterDisplay,
+.guildDisplay {
+   background-position: 100% center;
+   background-repeat: no-repeat;
+   background-size: contain;
+   display: inline-block;
+   padding-right: 5%;
+}
+
+#equipment span {
+   width: 50px;
+   height: 50px;
+   display: inline-block;
+}
+
+.icon.ui-icon {
+   display: inline-block;
+}
+
+#save-button, #trash-button, #load-button {
+   display: none;
+}
+
+//border: 1px solid red;
